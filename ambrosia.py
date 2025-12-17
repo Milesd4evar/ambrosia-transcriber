@@ -1,7 +1,7 @@
 from openai import OpenAI
 client = OpenAI()
 
-print("here")
+print("beginning transcription, expect 3-5 minutes")
 
 file = client.files.create(
     file=open("/Users/milesdusett/Desktop/ambrosestuff.pdf", "rb"),
